@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    -o-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    overflow-x: hidden;
+    display: block;
+    background: #fff;
+    background-origin: 9px;
+    min-height: 100%;
+    color: #000;
+    padding: 0px;
+    margin: 0px;
+    font-family: 'fontName', sans-serif;
+}
+
+.bg-grey{ background: #999;}
+
+::before, ::after {
+    font-family: FontAwesome;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+a, i, span {
+    display: inline-block;
+    color: inherit
+}
+
+a:hover, a:active {
+    color: inherit
+}
+
+li {
+    list-style: none; 
+}
+
+
+
+
+
+@media (min-width:1170px) and (max-width: 1281px) { }
+
+@media (min-width:1000px) and (max-width: 1169px) { }
+
+@media (min-width: 768px) and (max-width: 991px) { }
+
+@media (max-width: 767px) { }
+
+@media (max-width: 480px) { }
+
+@media (max-width: 360px) { }
+
+@media (max-width: 320px) { }
+
+
+
+@font-face { font-family: "fontName"; src: url('../fonts/name.ttf')}
